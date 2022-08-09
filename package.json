@@ -1,8 +1,8 @@
 {
-  "name": "gooditworks_base_frontend",
+  "name": "gooditworks_base_fullstack",
   "version": "0.2.3",
-  "description": "Gooditworks base frontend project",
-  "repository": "https://github.com/gooditworks/base-frontend",
+  "description": "Gooditworks base fullstack project",
+  "repository": "https://github.com/gooditworks/base-fullstack",
   "license": "MIT",
   "author": "Max Eliseev <mxseev@gmail.com>",
   "scripts": {
