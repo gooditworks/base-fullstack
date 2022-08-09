@@ -1,6 +1,8 @@
 import {router} from "@trpc/server"
 
-const serverTimeHandler = router().query("serverTime", {
+import {Context} from "server/context"
+
+const serverTimeHandler = router<Context>().query("serverTime", {
   resolve: () => Date.now()
 })
 

@@ -6,6 +6,7 @@
 
 - Все фишки обычного base-frontend
 - Настроенный [tRPC](https://trpc.io)
+- Настроенную [Prisma ORM](https://www.prisma.io)
 
 ## Документация
 

@@ -1,11 +1,18 @@
 import React from "react"
 
-import ServerTime from "components/ServerTime"
+import useCounter from "hooks/useCounter"
+import Counter from "components/Counter"
 
 const Index = () => {
+  const {value, increment, decrement} = useCounter()
+
+  if (value === 42) {
+    throw new Error("counter value is 42!")
+  }
+
   return (
     <div className="w-screen h-screen flex items-center justify-center">
-      <ServerTime />
+      <Counter value={value} onIncrement={increment} onDecrement={decrement} />
     </div>
   )
 }
