@@ -1,16 +1,12 @@
-# Gooditworks Base Frontend
+# Gooditworks Base Fullstack
 
-- Базируется на https://github.com/gooditcollective/base
+- Базируется на https://github.com/gooditcollective/base-frontend
 
-Базовая заготовка для frontend проектов. Включает в себя:
+Базовая заготовка для fullstack проектов. Включает в себя:
 
-- Все фишки обычного base
-- [Next.js](https://nextjs.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Playwright](https://playwright.dev)
-
-Реализован Counter, где показано как правильно писать UI, логику и тесты.
+- Все фишки обычного base-frontend
+- Настроенный [tRPC](https://trpc.io)
+- Настроенную [Prisma ORM](https://www.prisma.io)
 
 ## Документация
 

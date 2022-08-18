@@ -10,6 +10,7 @@
 - `NEXT_PUBLIC_SENTRY_DSN`: DSN URL от Sentry
 - `NEXT_PUBLIC_LOGDNA_APP`: название приложение в logDNA, желательно с окончанием текущего окружения (-dev/-prod/-etc)
 - `NEXT_PUBLIC_LOGDNA_KEY`: ключ от logDNA
+- `DATABASE_URL`: MySQL connection string основной базы данных
 
 Заготовка уже есть в файле `.env.example`, его можно просто переименовать в `.env` и заполнить. Если проект задеплоен на Vercel, то для получения актуальных переменных Development окружения можно воспользоваться командой `vercel env pull`.
 
