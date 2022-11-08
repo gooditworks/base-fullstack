@@ -24,8 +24,8 @@ const ThingsPage: FC<Props> = ({things}) => {
       <ul className="list-disc list-inside">
         {things.map(({id, name}) => (
           <li key={id}>
-            <Link href={`/things/${id}`}>
-              <a className="text-blue-600">{name}</a>
+            <Link href={`/things/${id}`} className="text-blue-600">
+              {name}
             </Link>
           </li>
         ))}
