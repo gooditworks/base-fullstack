@@ -1,6 +1,6 @@
 # Gooditworks Base Fullstack
 
-- Базируется на https://github.com/gooditcollective/base-frontend
+- Базируется на https://github.com/gooditworks/base-frontend
 
 Базовая заготовка для fullstack проектов. Включает в себя:
 

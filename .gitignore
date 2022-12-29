@@ -6,3 +6,4 @@
 /build
 /test-results
 /src/generated
+.DS_Store
